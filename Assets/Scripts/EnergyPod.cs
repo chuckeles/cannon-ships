@@ -18,6 +18,11 @@ public class EnergyPod : MonoBehaviour {
         var newEnergy = Mathf.Min(otherEnergy.GetValue() + myEnergy.GetValue(), otherMaxEnergy.GetValue());
         otherEnergy.SetValue(newEnergy);
 
+        var particles = transform.GetChild(0);
+        particles.parent = null;
+        particles.GetComponent<ParticleSystem>().Play();
+        Destroy(particles, 1);
+
         Destroy(gameObject);
     }
 
