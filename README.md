@@ -6,5 +6,5 @@ You control a ship in the space. The only way to move around is to shoot. But sh
 
 ## Links
 
-- Ludum Dare page
-- Itch page
+- [Ludum Dare entry](https://ldjam.com/events/ludum-dare/39/cannon-ships)
+- [Game on Itch.io](https://chuckeles.itch.io/cannon-ships)
