@@ -26,9 +26,10 @@ public class Spawner : MonoBehaviour {
         // account for changed window size
         spawnChance += (Mathf.Max(Screen.width, Screen.height) - 500) / 1400f;
 
+        var distance = Camera.main.orthographicSize * 3;
+
         // spawn an enemy
         if (Random.Range(0f, 100f) < spawnChance) {
-            var distance = Camera.main.orthographicSize * 2;
             var angle = Random.Range(0f, Mathf.PI * 2);
 
             var x = distance * Mathf.Cos(angle) + player.position.x;
@@ -45,7 +46,6 @@ public class Spawner : MonoBehaviour {
 
         // spawn a crystal
         if (Random.Range(0f, 100f) < spawnChance * .5f + .5) {
-            var distance = Camera.main.orthographicSize * 2;
             var angle = Random.Range(0f, Mathf.PI * 2);
 
             var x = distance * Mathf.Cos(angle) + player.position.x;
