@@ -1,4 +1,5 @@
 ﻿using FlowCanvas;
+using NodeCanvas.BehaviourTrees;
 using NodeCanvas.Framework;
 using UnityEngine;
 
@@ -29,6 +30,9 @@ public class EnergyPod : MonoBehaviour {
         // re-activate ship
         foreach (var flowScriptController in other.gameObject.GetComponents<FlowScriptController>()) {
             flowScriptController.enabled = true;
+        }
+        foreach (var behaviourTreeOwner in other.gameObject.GetComponents<BehaviourTreeOwner>()) {
+            behaviourTreeOwner.enabled = true;
         }
 
         // play sound

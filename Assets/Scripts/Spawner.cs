@@ -20,7 +20,7 @@ public class Spawner : MonoBehaviour {
         spawnChance += Time.time / chanceIncrease;
 
         // account for changed window size
-        spawnChance += (Mathf.Max(Screen.width, Screen.height) - 500) / 400f;
+        spawnChance += (Mathf.Max(Screen.width, Screen.height) - 500) / 1400f;
 
         // spawn an enemy
         if (Random.Range(0f, 100f) < spawnChance) {
