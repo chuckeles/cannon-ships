@@ -21,7 +21,7 @@ public class EnergyPod : MonoBehaviour {
         var particles = transform.GetChild(0);
         particles.parent = null;
         particles.GetComponent<ParticleSystem>().Play();
-        Destroy(particles, 1);
+        Destroy(particles.gameObject, 1);
 
         Destroy(gameObject);
     }

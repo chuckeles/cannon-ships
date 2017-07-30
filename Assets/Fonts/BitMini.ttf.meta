@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b6c01314830104013bf3fe577788907e
+timeCreated: 1501400261
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: BitMini
+  fontNames:
+  - BitMini
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
