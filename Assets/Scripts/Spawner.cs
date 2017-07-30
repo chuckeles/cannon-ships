@@ -8,6 +8,7 @@ public class Spawner : MonoBehaviour {
 
     public float initialSpawnChance = .6f;
     public float pushAmount = 40f;
+    public float chanceIncrease = 30;
 
     private void Update() {
         if (!player) {
@@ -16,7 +17,7 @@ public class Spawner : MonoBehaviour {
 
         var playerVelocity = player.GetComponent<Rigidbody2D>().velocity;
         var spawnChance = initialSpawnChance;
-        spawnChance += Time.time / 50;
+        spawnChance += Time.time / chanceIncrease;
 
         // spawn an enemy
         if (Random.Range(0f, 100f) < spawnChance) {
