@@ -13,7 +13,7 @@ public class IsCloseToPlayer : ConditionTask {
 
         var playerPosition = player.transform.position;
         var position = agent.transform.position;
-        var cameraSize = Camera.main.orthographicSize * 1.2f;
+        var cameraSize = Camera.main.orthographicSize * .9f;
 
         return Vector3.Distance(playerPosition, position) < cameraSize;
     }

@@ -1,4 +1,5 @@
-﻿using NodeCanvas.Framework;
+﻿using FlowCanvas;
+using NodeCanvas.Framework;
 using UnityEngine;
 
 public class EnergyPod : MonoBehaviour {
@@ -22,6 +23,11 @@ public class EnergyPod : MonoBehaviour {
         particles.parent = null;
         particles.GetComponent<ParticleSystem>().Play();
         Destroy(particles.gameObject, 1);
+
+        // re-activate ship
+        foreach (var flowScriptController in other.gameObject.GetComponents<FlowScriptController>()) {
+            flowScriptController.enabled = true;
+        }
 
         Destroy(gameObject);
     }
