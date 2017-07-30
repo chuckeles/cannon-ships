@@ -8,7 +8,7 @@ public class Aim : ActionTask {
     public bool opposite = false;
 
     protected override void OnExecute() {
-        var player = GameObject.FindWithTag("Player");
+        var player = Camera.main; // use camera instead
         if (!player) {
             EndAction(false);
             return;

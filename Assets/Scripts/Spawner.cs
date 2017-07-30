@@ -10,14 +10,18 @@ public class Spawner : MonoBehaviour {
     public float pushAmount = 40f;
     public float chanceIncrease = 30;
 
+    private float elapsed = 0;
+
     private void Update() {
         if (!player) {
             return;
         }
 
+        elapsed += Time.deltaTime;
+
         var playerVelocity = player.GetComponent<Rigidbody2D>().velocity;
         var spawnChance = initialSpawnChance;
-        spawnChance += Time.time / chanceIncrease;
+        spawnChance += elapsed / chanceIncrease;
 
         // account for changed window size
         spawnChance += (Mathf.Max(Screen.width, Screen.height) - 500) / 1400f;
