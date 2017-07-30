@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class EnergyPod : MonoBehaviour {
 
+    public AudioClip soundEffect;
+
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.GetComponent<Ship>() == null) {
             return;
@@ -28,6 +30,9 @@ public class EnergyPod : MonoBehaviour {
         foreach (var flowScriptController in other.gameObject.GetComponents<FlowScriptController>()) {
             flowScriptController.enabled = true;
         }
+
+        // play sound
+        GameObject.Find("AudioPlayer").GetComponent<FlowScriptController>().SendEvent<AudioClip>("Play", soundEffect);
 
         Destroy(gameObject);
     }
