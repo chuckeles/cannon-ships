@@ -36,6 +36,7 @@ public class EnergyPod : MonoBehaviour {
         }
 
         // play sound
+        GameObject.Find("AudioPlayer").GetComponent<FlowScriptController>().SendEvent<Vector3>("Position", transform.position);
         GameObject.Find("AudioPlayer").GetComponent<FlowScriptController>().SendEvent<AudioClip>("Play", soundEffect);
 
         Destroy(gameObject);
