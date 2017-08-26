@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4875166587007968}
   - component: {fileID: 212278803621742410}
-  - component: {fileID: 60602699944247538}
   - component: {fileID: 50620835590207560}
+  - component: {fileID: 61105034299730816}
   m_Layer: 0
   m_Name: Debris
   m_TagString: Untagged
@@ -62,8 +62,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &60602699944247538
-PolygonCollider2D:
+--- !u!61 &61105034299730816
+BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -84,11 +84,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.25, y: -0.03311968}
-      - {x: 0.25, y: -0.25}
-      - {x: -0.03284979, y: 0.25520372}
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5}
+  m_EdgeRadius: 0
 --- !u!212 &212278803621742410
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -129,3 +127,5 @@ SpriteRenderer:
   m_Size: {x: 0.5, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
