@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlaySoundAt : CallableActionNode<AudioSource, Vector3, AudioClip> {
 
     public override void Invoke(AudioSource original, Vector3 position, AudioClip sound) {
-        var soundGameObject = new GameObject("Temporary Audio");
+        var soundGameObject = new GameObject("TemporaryAudio");
         var soundAudioSource = soundGameObject.AddComponent<AudioSource>();
 
         soundGameObject.transform.position = position;
@@ -32,7 +32,7 @@ public class PlaySoundAt : CallableActionNode<AudioSource, Vector3, AudioClip> {
         soundAudioSource.maxDistance = original.maxDistance;
 
         soundAudioSource.Play();
-        Object.Destroy(soundGameObject, soundAudioSource.clip.length);
+        Object.Destroy(soundGameObject, sound.length);
     }
 
 }
