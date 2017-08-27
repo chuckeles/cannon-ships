@@ -24,6 +24,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_BinderConnection_UnityEngine_RaycastHit2D : FlowCanvas.BinderConnection<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_BinderConnection_UnityEngine_Space : FlowCanvas.BinderConnection<UnityEngine.Space>{}
 		class FlowCanvas_BinderConnection_FlowCanvas_Flow : FlowCanvas.BinderConnection<FlowCanvas.Flow>{}
+		class FlowCanvas_BinderConnection_UnityEngine_ForceMode2D : FlowCanvas.BinderConnection<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_BinderConnection_UnityEngine_LayerMask : FlowCanvas.BinderConnection<UnityEngine.LayerMask>{}
 
 		void FlowCanvas_ValueHandler_Delegate(){
@@ -46,6 +47,7 @@ namespace ParadoxNotion.Internal{
 			FlowCanvas.ValueHandler<UnityEngine.RaycastHit2D> _ValueHandler_UnityEngine_RaycastHit2D = null;
 			FlowCanvas.ValueHandler<UnityEngine.Space> _ValueHandler_UnityEngine_Space = null;
 			FlowCanvas.ValueHandler<FlowCanvas.Flow> _ValueHandler_FlowCanvas_Flow = null;
+			FlowCanvas.ValueHandler<UnityEngine.ForceMode2D> _ValueHandler_UnityEngine_ForceMode2D = null;
 			FlowCanvas.ValueHandler<UnityEngine.LayerMask> _ValueHandler_UnityEngine_LayerMask = null;
 		}
 
@@ -68,6 +70,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_ValueInput_UnityEngine_RaycastHit2D : FlowCanvas.ValueInput<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_ValueInput_UnityEngine_Space : FlowCanvas.ValueInput<UnityEngine.Space>{}
 		class FlowCanvas_ValueInput_FlowCanvas_Flow : FlowCanvas.ValueInput<FlowCanvas.Flow>{}
+		class FlowCanvas_ValueInput_UnityEngine_ForceMode2D : FlowCanvas.ValueInput<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_ValueInput_UnityEngine_LayerMask : FlowCanvas.ValueInput<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_ValueOutput_System_Boolean : FlowCanvas.ValueOutput<System.Boolean>{}
@@ -89,6 +92,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_ValueOutput_UnityEngine_RaycastHit2D : FlowCanvas.ValueOutput<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_ValueOutput_UnityEngine_Space : FlowCanvas.ValueOutput<UnityEngine.Space>{}
 		class FlowCanvas_ValueOutput_FlowCanvas_Flow : FlowCanvas.ValueOutput<FlowCanvas.Flow>{}
+		class FlowCanvas_ValueOutput_UnityEngine_ForceMode2D : FlowCanvas.ValueOutput<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_ValueOutput_UnityEngine_LayerMask : FlowCanvas.ValueOutput<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_AddListItem_System_Boolean : FlowCanvas.Nodes.AddListItem<System.Boolean>{}
@@ -110,6 +114,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_AddListItem_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.AddListItem<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_AddListItem_UnityEngine_Space : FlowCanvas.Nodes.AddListItem<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_AddListItem_FlowCanvas_Flow : FlowCanvas.Nodes.AddListItem<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_AddListItem_UnityEngine_ForceMode2D : FlowCanvas.Nodes.AddListItem<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_AddListItem_UnityEngine_LayerMask : FlowCanvas.Nodes.AddListItem<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_Cache_System_Boolean : FlowCanvas.Nodes.Cache<System.Boolean>{}
@@ -131,6 +136,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_Cache_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.Cache<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_Cache_UnityEngine_Space : FlowCanvas.Nodes.Cache<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_Cache_FlowCanvas_Flow : FlowCanvas.Nodes.Cache<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_Cache_UnityEngine_ForceMode2D : FlowCanvas.Nodes.Cache<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_Cache_UnityEngine_LayerMask : FlowCanvas.Nodes.Cache<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_CastTo_System_Boolean : FlowCanvas.Nodes.CastTo<System.Boolean>{}
@@ -152,6 +158,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_CastTo_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.CastTo<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_CastTo_UnityEngine_Space : FlowCanvas.Nodes.CastTo<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_CastTo_FlowCanvas_Flow : FlowCanvas.Nodes.CastTo<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_CastTo_UnityEngine_ForceMode2D : FlowCanvas.Nodes.CastTo<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_CastTo_UnityEngine_LayerMask : FlowCanvas.Nodes.CastTo<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_CodeEvent_System_Boolean : FlowCanvas.Nodes.CodeEvent<System.Boolean>{}
@@ -173,6 +180,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_CodeEvent_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.CodeEvent<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_CodeEvent_UnityEngine_Space : FlowCanvas.Nodes.CodeEvent<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_CodeEvent_FlowCanvas_Flow : FlowCanvas.Nodes.CodeEvent<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_CodeEvent_UnityEngine_ForceMode2D : FlowCanvas.Nodes.CodeEvent<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_CodeEvent_UnityEngine_LayerMask : FlowCanvas.Nodes.CodeEvent<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_CreateCollection_System_Boolean : FlowCanvas.Nodes.CreateCollection<System.Boolean>{}
@@ -194,6 +202,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_CreateCollection_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.CreateCollection<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_CreateCollection_UnityEngine_Space : FlowCanvas.Nodes.CreateCollection<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_CreateCollection_FlowCanvas_Flow : FlowCanvas.Nodes.CreateCollection<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_CreateCollection_UnityEngine_ForceMode2D : FlowCanvas.Nodes.CreateCollection<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_CreateCollection_UnityEngine_LayerMask : FlowCanvas.Nodes.CreateCollection<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_CustomEvent_System_Boolean : FlowCanvas.Nodes.CustomEvent<System.Boolean>{}
@@ -215,6 +224,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_CustomEvent_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.CustomEvent<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_CustomEvent_UnityEngine_Space : FlowCanvas.Nodes.CustomEvent<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_CustomEvent_FlowCanvas_Flow : FlowCanvas.Nodes.CustomEvent<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_CustomEvent_UnityEngine_ForceMode2D : FlowCanvas.Nodes.CustomEvent<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_CustomEvent_UnityEngine_LayerMask : FlowCanvas.Nodes.CustomEvent<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_ForEach_System_Boolean : FlowCanvas.Nodes.ForEach<System.Boolean>{}
@@ -236,6 +246,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_ForEach_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.ForEach<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_ForEach_UnityEngine_Space : FlowCanvas.Nodes.ForEach<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_ForEach_FlowCanvas_Flow : FlowCanvas.Nodes.ForEach<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_ForEach_UnityEngine_ForceMode2D : FlowCanvas.Nodes.ForEach<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_ForEach_UnityEngine_LayerMask : FlowCanvas.Nodes.ForEach<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_GetFirstListItem_System_Boolean : FlowCanvas.Nodes.GetFirstListItem<System.Boolean>{}
@@ -257,6 +268,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_GetFirstListItem_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.GetFirstListItem<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_GetFirstListItem_UnityEngine_Space : FlowCanvas.Nodes.GetFirstListItem<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_GetFirstListItem_FlowCanvas_Flow : FlowCanvas.Nodes.GetFirstListItem<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_GetFirstListItem_UnityEngine_ForceMode2D : FlowCanvas.Nodes.GetFirstListItem<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_GetFirstListItem_UnityEngine_LayerMask : FlowCanvas.Nodes.GetFirstListItem<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_GetLastListItem_System_Boolean : FlowCanvas.Nodes.GetLastListItem<System.Boolean>{}
@@ -278,6 +290,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_GetLastListItem_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.GetLastListItem<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_GetLastListItem_UnityEngine_Space : FlowCanvas.Nodes.GetLastListItem<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_GetLastListItem_FlowCanvas_Flow : FlowCanvas.Nodes.GetLastListItem<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_GetLastListItem_UnityEngine_ForceMode2D : FlowCanvas.Nodes.GetLastListItem<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_GetLastListItem_UnityEngine_LayerMask : FlowCanvas.Nodes.GetLastListItem<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_GetListItem_System_Boolean : FlowCanvas.Nodes.GetListItem<System.Boolean>{}
@@ -299,6 +312,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_GetListItem_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.GetListItem<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_GetListItem_UnityEngine_Space : FlowCanvas.Nodes.GetListItem<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_GetListItem_FlowCanvas_Flow : FlowCanvas.Nodes.GetListItem<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_GetListItem_UnityEngine_ForceMode2D : FlowCanvas.Nodes.GetListItem<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_GetListItem_UnityEngine_LayerMask : FlowCanvas.Nodes.GetListItem<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_GetOtherVariable_System_Boolean : FlowCanvas.Nodes.GetOtherVariable<System.Boolean>{}
@@ -320,6 +334,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_GetOtherVariable_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.GetOtherVariable<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_GetOtherVariable_UnityEngine_Space : FlowCanvas.Nodes.GetOtherVariable<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_GetOtherVariable_FlowCanvas_Flow : FlowCanvas.Nodes.GetOtherVariable<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_GetOtherVariable_UnityEngine_ForceMode2D : FlowCanvas.Nodes.GetOtherVariable<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_GetOtherVariable_UnityEngine_LayerMask : FlowCanvas.Nodes.GetOtherVariable<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_GetRandomListItem_System_Boolean : FlowCanvas.Nodes.GetRandomListItem<System.Boolean>{}
@@ -341,6 +356,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_GetRandomListItem_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.GetRandomListItem<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_GetRandomListItem_UnityEngine_Space : FlowCanvas.Nodes.GetRandomListItem<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_GetRandomListItem_FlowCanvas_Flow : FlowCanvas.Nodes.GetRandomListItem<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_GetRandomListItem_UnityEngine_ForceMode2D : FlowCanvas.Nodes.GetRandomListItem<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_GetRandomListItem_UnityEngine_LayerMask : FlowCanvas.Nodes.GetRandomListItem<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_GetVariable_System_Boolean : FlowCanvas.Nodes.GetVariable<System.Boolean>{}
@@ -362,6 +378,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_GetVariable_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.GetVariable<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_GetVariable_UnityEngine_Space : FlowCanvas.Nodes.GetVariable<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_GetVariable_FlowCanvas_Flow : FlowCanvas.Nodes.GetVariable<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_GetVariable_UnityEngine_ForceMode2D : FlowCanvas.Nodes.GetVariable<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_GetVariable_UnityEngine_LayerMask : FlowCanvas.Nodes.GetVariable<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_Identity_System_Boolean : FlowCanvas.Nodes.Identity<System.Boolean>{}
@@ -383,6 +400,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_Identity_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.Identity<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_Identity_UnityEngine_Space : FlowCanvas.Nodes.Identity<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_Identity_FlowCanvas_Flow : FlowCanvas.Nodes.Identity<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_Identity_UnityEngine_ForceMode2D : FlowCanvas.Nodes.Identity<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_Identity_UnityEngine_LayerMask : FlowCanvas.Nodes.Identity<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_InsertListItem_System_Boolean : FlowCanvas.Nodes.InsertListItem<System.Boolean>{}
@@ -404,6 +422,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_InsertListItem_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.InsertListItem<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_InsertListItem_UnityEngine_Space : FlowCanvas.Nodes.InsertListItem<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_InsertListItem_FlowCanvas_Flow : FlowCanvas.Nodes.InsertListItem<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_InsertListItem_UnityEngine_ForceMode2D : FlowCanvas.Nodes.InsertListItem<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_InsertListItem_UnityEngine_LayerMask : FlowCanvas.Nodes.InsertListItem<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_PickValue_System_Boolean : FlowCanvas.Nodes.PickValue<System.Boolean>{}
@@ -425,6 +444,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_PickValue_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.PickValue<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_PickValue_UnityEngine_Space : FlowCanvas.Nodes.PickValue<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_PickValue_FlowCanvas_Flow : FlowCanvas.Nodes.PickValue<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_PickValue_UnityEngine_ForceMode2D : FlowCanvas.Nodes.PickValue<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_PickValue_UnityEngine_LayerMask : FlowCanvas.Nodes.PickValue<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_ReadFlowParameter_System_Boolean : FlowCanvas.Nodes.ReadFlowParameter<System.Boolean>{}
@@ -446,6 +466,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_ReadFlowParameter_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.ReadFlowParameter<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_ReadFlowParameter_UnityEngine_Space : FlowCanvas.Nodes.ReadFlowParameter<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_ReadFlowParameter_FlowCanvas_Flow : FlowCanvas.Nodes.ReadFlowParameter<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_ReadFlowParameter_UnityEngine_ForceMode2D : FlowCanvas.Nodes.ReadFlowParameter<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_ReadFlowParameter_UnityEngine_LayerMask : FlowCanvas.Nodes.ReadFlowParameter<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_RelayValueInput_System_Boolean : FlowCanvas.Nodes.RelayValueInput<System.Boolean>{}
@@ -467,6 +488,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_RelayValueInput_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.RelayValueInput<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_RelayValueInput_UnityEngine_Space : FlowCanvas.Nodes.RelayValueInput<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_RelayValueInput_FlowCanvas_Flow : FlowCanvas.Nodes.RelayValueInput<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_RelayValueInput_UnityEngine_ForceMode2D : FlowCanvas.Nodes.RelayValueInput<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_RelayValueInput_UnityEngine_LayerMask : FlowCanvas.Nodes.RelayValueInput<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_RelayValueOutput_System_Boolean : FlowCanvas.Nodes.RelayValueOutput<System.Boolean>{}
@@ -488,6 +510,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_RelayValueOutput_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.RelayValueOutput<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_RelayValueOutput_UnityEngine_Space : FlowCanvas.Nodes.RelayValueOutput<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_RelayValueOutput_FlowCanvas_Flow : FlowCanvas.Nodes.RelayValueOutput<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_RelayValueOutput_UnityEngine_ForceMode2D : FlowCanvas.Nodes.RelayValueOutput<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_RelayValueOutput_UnityEngine_LayerMask : FlowCanvas.Nodes.RelayValueOutput<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_RemoveListItem_System_Boolean : FlowCanvas.Nodes.RemoveListItem<System.Boolean>{}
@@ -509,6 +532,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_RemoveListItem_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.RemoveListItem<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_RemoveListItem_UnityEngine_Space : FlowCanvas.Nodes.RemoveListItem<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_RemoveListItem_FlowCanvas_Flow : FlowCanvas.Nodes.RemoveListItem<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_RemoveListItem_UnityEngine_ForceMode2D : FlowCanvas.Nodes.RemoveListItem<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_RemoveListItem_UnityEngine_LayerMask : FlowCanvas.Nodes.RemoveListItem<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_RemoveListItemAt_System_Boolean : FlowCanvas.Nodes.RemoveListItemAt<System.Boolean>{}
@@ -530,6 +554,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_RemoveListItemAt_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.RemoveListItemAt<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_RemoveListItemAt_UnityEngine_Space : FlowCanvas.Nodes.RemoveListItemAt<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_RemoveListItemAt_FlowCanvas_Flow : FlowCanvas.Nodes.RemoveListItemAt<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_RemoveListItemAt_UnityEngine_ForceMode2D : FlowCanvas.Nodes.RemoveListItemAt<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_RemoveListItemAt_UnityEngine_LayerMask : FlowCanvas.Nodes.RemoveListItemAt<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_SendEvent_System_Boolean : FlowCanvas.Nodes.SendEvent<System.Boolean>{}
@@ -551,6 +576,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_SendEvent_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.SendEvent<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_SendEvent_UnityEngine_Space : FlowCanvas.Nodes.SendEvent<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_SendEvent_FlowCanvas_Flow : FlowCanvas.Nodes.SendEvent<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_SendEvent_UnityEngine_ForceMode2D : FlowCanvas.Nodes.SendEvent<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_SendEvent_UnityEngine_LayerMask : FlowCanvas.Nodes.SendEvent<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_SendGlobalEvent_System_Boolean : FlowCanvas.Nodes.SendGlobalEvent<System.Boolean>{}
@@ -572,6 +598,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_SendGlobalEvent_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.SendGlobalEvent<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_SendGlobalEvent_UnityEngine_Space : FlowCanvas.Nodes.SendGlobalEvent<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_SendGlobalEvent_FlowCanvas_Flow : FlowCanvas.Nodes.SendGlobalEvent<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_SendGlobalEvent_UnityEngine_ForceMode2D : FlowCanvas.Nodes.SendGlobalEvent<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_SendGlobalEvent_UnityEngine_LayerMask : FlowCanvas.Nodes.SendGlobalEvent<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_SetListItem_System_Boolean : FlowCanvas.Nodes.SetListItem<System.Boolean>{}
@@ -593,6 +620,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_SetListItem_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.SetListItem<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_SetListItem_UnityEngine_Space : FlowCanvas.Nodes.SetListItem<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_SetListItem_FlowCanvas_Flow : FlowCanvas.Nodes.SetListItem<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_SetListItem_UnityEngine_ForceMode2D : FlowCanvas.Nodes.SetListItem<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_SetListItem_UnityEngine_LayerMask : FlowCanvas.Nodes.SetListItem<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_SetOtherVariable_System_Boolean : FlowCanvas.Nodes.SetOtherVariable<System.Boolean>{}
@@ -614,6 +642,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_SetOtherVariable_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.SetOtherVariable<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_SetOtherVariable_UnityEngine_Space : FlowCanvas.Nodes.SetOtherVariable<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_SetOtherVariable_FlowCanvas_Flow : FlowCanvas.Nodes.SetOtherVariable<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_SetOtherVariable_UnityEngine_ForceMode2D : FlowCanvas.Nodes.SetOtherVariable<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_SetOtherVariable_UnityEngine_LayerMask : FlowCanvas.Nodes.SetOtherVariable<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_SetVariable_System_Boolean : FlowCanvas.Nodes.SetVariable<System.Boolean>{}
@@ -635,6 +664,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_SetVariable_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.SetVariable<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_SetVariable_UnityEngine_Space : FlowCanvas.Nodes.SetVariable<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_SetVariable_FlowCanvas_Flow : FlowCanvas.Nodes.SetVariable<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_SetVariable_UnityEngine_ForceMode2D : FlowCanvas.Nodes.SetVariable<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_SetVariable_UnityEngine_LayerMask : FlowCanvas.Nodes.SetVariable<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_ShuffleList_System_Boolean : FlowCanvas.Nodes.ShuffleList<System.Boolean>{}
@@ -656,6 +686,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_ShuffleList_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.ShuffleList<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_ShuffleList_UnityEngine_Space : FlowCanvas.Nodes.ShuffleList<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_ShuffleList_FlowCanvas_Flow : FlowCanvas.Nodes.ShuffleList<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_ShuffleList_UnityEngine_ForceMode2D : FlowCanvas.Nodes.ShuffleList<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_ShuffleList_UnityEngine_LayerMask : FlowCanvas.Nodes.ShuffleList<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_StaticCodeEvent_System_Boolean : FlowCanvas.Nodes.StaticCodeEvent<System.Boolean>{}
@@ -677,6 +708,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_StaticCodeEvent_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.StaticCodeEvent<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_StaticCodeEvent_UnityEngine_Space : FlowCanvas.Nodes.StaticCodeEvent<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_StaticCodeEvent_FlowCanvas_Flow : FlowCanvas.Nodes.StaticCodeEvent<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_StaticCodeEvent_UnityEngine_ForceMode2D : FlowCanvas.Nodes.StaticCodeEvent<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_StaticCodeEvent_UnityEngine_LayerMask : FlowCanvas.Nodes.StaticCodeEvent<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_SwitchValue_System_Boolean : FlowCanvas.Nodes.SwitchValue<System.Boolean>{}
@@ -698,6 +730,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_SwitchValue_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.SwitchValue<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_SwitchValue_UnityEngine_Space : FlowCanvas.Nodes.SwitchValue<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_SwitchValue_FlowCanvas_Flow : FlowCanvas.Nodes.SwitchValue<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_SwitchValue_UnityEngine_ForceMode2D : FlowCanvas.Nodes.SwitchValue<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_SwitchValue_UnityEngine_LayerMask : FlowCanvas.Nodes.SwitchValue<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_ToArray_System_Boolean : FlowCanvas.Nodes.ToArray<System.Boolean>{}
@@ -719,6 +752,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_ToArray_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.ToArray<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_ToArray_UnityEngine_Space : FlowCanvas.Nodes.ToArray<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_ToArray_FlowCanvas_Flow : FlowCanvas.Nodes.ToArray<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_ToArray_UnityEngine_ForceMode2D : FlowCanvas.Nodes.ToArray<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_ToArray_UnityEngine_LayerMask : FlowCanvas.Nodes.ToArray<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_ToList_System_Boolean : FlowCanvas.Nodes.ToList<System.Boolean>{}
@@ -740,6 +774,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_ToList_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.ToList<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_ToList_UnityEngine_Space : FlowCanvas.Nodes.ToList<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_ToList_FlowCanvas_Flow : FlowCanvas.Nodes.ToList<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_ToList_UnityEngine_ForceMode2D : FlowCanvas.Nodes.ToList<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_ToList_UnityEngine_LayerMask : FlowCanvas.Nodes.ToList<UnityEngine.LayerMask>{}
 
 		class FlowCanvas_Nodes_WriteFlowParameter_System_Boolean : FlowCanvas.Nodes.WriteFlowParameter<System.Boolean>{}
@@ -761,6 +796,7 @@ namespace ParadoxNotion.Internal{
 		class FlowCanvas_Nodes_WriteFlowParameter_UnityEngine_RaycastHit2D : FlowCanvas.Nodes.WriteFlowParameter<UnityEngine.RaycastHit2D>{}
 		class FlowCanvas_Nodes_WriteFlowParameter_UnityEngine_Space : FlowCanvas.Nodes.WriteFlowParameter<UnityEngine.Space>{}
 		class FlowCanvas_Nodes_WriteFlowParameter_FlowCanvas_Flow : FlowCanvas.Nodes.WriteFlowParameter<FlowCanvas.Flow>{}
+		class FlowCanvas_Nodes_WriteFlowParameter_UnityEngine_ForceMode2D : FlowCanvas.Nodes.WriteFlowParameter<UnityEngine.ForceMode2D>{}
 		class FlowCanvas_Nodes_WriteFlowParameter_UnityEngine_LayerMask : FlowCanvas.Nodes.WriteFlowParameter<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Framework_BBParameter_System_Boolean : NodeCanvas.Framework.BBParameter<System.Boolean>{}
@@ -782,6 +818,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Framework_BBParameter_UnityEngine_RaycastHit2D : NodeCanvas.Framework.BBParameter<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Framework_BBParameter_UnityEngine_Space : NodeCanvas.Framework.BBParameter<UnityEngine.Space>{}
 		class NodeCanvas_Framework_BBParameter_FlowCanvas_Flow : NodeCanvas.Framework.BBParameter<FlowCanvas.Flow>{}
+		class NodeCanvas_Framework_BBParameter_UnityEngine_ForceMode2D : NodeCanvas.Framework.BBParameter<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Framework_BBParameter_UnityEngine_LayerMask : NodeCanvas.Framework.BBParameter<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Framework_Variable_System_Boolean : NodeCanvas.Framework.Variable<System.Boolean>{}
@@ -803,6 +840,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Framework_Variable_UnityEngine_RaycastHit2D : NodeCanvas.Framework.Variable<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Framework_Variable_UnityEngine_Space : NodeCanvas.Framework.Variable<UnityEngine.Space>{}
 		class NodeCanvas_Framework_Variable_FlowCanvas_Flow : NodeCanvas.Framework.Variable<FlowCanvas.Flow>{}
+		class NodeCanvas_Framework_Variable_UnityEngine_ForceMode2D : NodeCanvas.Framework.Variable<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Framework_Variable_UnityEngine_LayerMask : NodeCanvas.Framework.Variable<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Framework_Internal_ReflectedAction_System_Boolean : NodeCanvas.Framework.Internal.ReflectedAction<System.Boolean>{}
@@ -824,6 +862,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_RaycastHit2D : NodeCanvas.Framework.Internal.ReflectedAction<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_Space : NodeCanvas.Framework.Internal.ReflectedAction<UnityEngine.Space>{}
 		class NodeCanvas_Framework_Internal_ReflectedAction_FlowCanvas_Flow : NodeCanvas.Framework.Internal.ReflectedAction<FlowCanvas.Flow>{}
+		class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_ForceMode2D : NodeCanvas.Framework.Internal.ReflectedAction<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Framework_Internal_ReflectedAction_UnityEngine_LayerMask : NodeCanvas.Framework.Internal.ReflectedAction<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Framework_Internal_ReflectedFunction_System_Boolean : NodeCanvas.Framework.Internal.ReflectedFunction<System.Boolean>{}
@@ -845,6 +884,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_RaycastHit2D : NodeCanvas.Framework.Internal.ReflectedFunction<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_Space : NodeCanvas.Framework.Internal.ReflectedFunction<UnityEngine.Space>{}
 		class NodeCanvas_Framework_Internal_ReflectedFunction_FlowCanvas_Flow : NodeCanvas.Framework.Internal.ReflectedFunction<FlowCanvas.Flow>{}
+		class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_ForceMode2D : NodeCanvas.Framework.Internal.ReflectedFunction<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Framework_Internal_ReflectedFunction_UnityEngine_LayerMask : NodeCanvas.Framework.Internal.ReflectedFunction<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_AddElementToList_System_Boolean : NodeCanvas.Tasks.Actions.AddElementToList<System.Boolean>{}
@@ -866,6 +906,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.AddElementToList<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_Space : NodeCanvas.Tasks.Actions.AddElementToList<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_AddElementToList_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.AddElementToList<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.AddElementToList<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_AddElementToList_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.AddElementToList<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_GetIndexOfElement_System_Boolean : NodeCanvas.Tasks.Actions.GetIndexOfElement<System.Boolean>{}
@@ -887,6 +928,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.GetIndexOfElement<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_Space : NodeCanvas.Tasks.Actions.GetIndexOfElement<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_GetIndexOfElement_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.GetIndexOfElement<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.GetIndexOfElement<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_GetIndexOfElement_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.GetIndexOfElement<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_InsertElementToList_System_Boolean : NodeCanvas.Tasks.Actions.InsertElementToList<System.Boolean>{}
@@ -908,6 +950,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.InsertElementToList<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_Space : NodeCanvas.Tasks.Actions.InsertElementToList<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_InsertElementToList_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.InsertElementToList<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.InsertElementToList<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_InsertElementToList_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.InsertElementToList<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_PickListElement_System_Boolean : NodeCanvas.Tasks.Actions.PickListElement<System.Boolean>{}
@@ -929,6 +972,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.PickListElement<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_Space : NodeCanvas.Tasks.Actions.PickListElement<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_PickListElement_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.PickListElement<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.PickListElement<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_PickListElement_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.PickListElement<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_PickRandomListElement_System_Boolean : NodeCanvas.Tasks.Actions.PickRandomListElement<System.Boolean>{}
@@ -950,6 +994,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.PickRandomListElement<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_Space : NodeCanvas.Tasks.Actions.PickRandomListElement<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_PickRandomListElement_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.PickRandomListElement<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.PickRandomListElement<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_PickRandomListElement_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.PickRandomListElement<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_RemoveElementFromList_System_Boolean : NodeCanvas.Tasks.Actions.RemoveElementFromList<System.Boolean>{}
@@ -971,6 +1016,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.RemoveElementFromList<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_Space : NodeCanvas.Tasks.Actions.RemoveElementFromList<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_RemoveElementFromList_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.RemoveElementFromList<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.RemoveElementFromList<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_RemoveElementFromList_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.RemoveElementFromList<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_SendEvent_System_Boolean : NodeCanvas.Tasks.Actions.SendEvent<System.Boolean>{}
@@ -992,6 +1038,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.SendEvent<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_Space : NodeCanvas.Tasks.Actions.SendEvent<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_SendEvent_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.SendEvent<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.SendEvent<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_SendEvent_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.SendEvent<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_SendEventToObjects_System_Boolean : NodeCanvas.Tasks.Actions.SendEventToObjects<System.Boolean>{}
@@ -1013,6 +1060,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.SendEventToObjects<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_Space : NodeCanvas.Tasks.Actions.SendEventToObjects<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_SendEventToObjects_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.SendEventToObjects<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.SendEventToObjects<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_SendEventToObjects_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.SendEventToObjects<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_SendMessage_System_Boolean : NodeCanvas.Tasks.Actions.SendMessage<System.Boolean>{}
@@ -1034,6 +1082,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.SendMessage<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_Space : NodeCanvas.Tasks.Actions.SendMessage<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_SendMessage_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.SendMessage<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.SendMessage<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_SendMessage_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.SendMessage<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_SetListElement_System_Boolean : NodeCanvas.Tasks.Actions.SetListElement<System.Boolean>{}
@@ -1055,6 +1104,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.SetListElement<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_Space : NodeCanvas.Tasks.Actions.SetListElement<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_SetListElement_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.SetListElement<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.SetListElement<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_SetListElement_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.SetListElement<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Actions_SetVariable_System_Boolean : NodeCanvas.Tasks.Actions.SetVariable<System.Boolean>{}
@@ -1076,6 +1126,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Actions.SetVariable<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_Space : NodeCanvas.Tasks.Actions.SetVariable<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Actions_SetVariable_FlowCanvas_Flow : NodeCanvas.Tasks.Actions.SetVariable<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Actions.SetVariable<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Actions_SetVariable_UnityEngine_LayerMask : NodeCanvas.Tasks.Actions.SetVariable<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_System_Boolean : NodeCanvas.Tasks.Conditions.CheckCSharpEvent<System.Boolean>{}
@@ -1097,6 +1148,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Conditions.CheckCSharpEvent<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_Space : NodeCanvas.Tasks.Conditions.CheckCSharpEvent<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_FlowCanvas_Flow : NodeCanvas.Tasks.Conditions.CheckCSharpEvent<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Conditions.CheckCSharpEvent<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckCSharpEvent_UnityEngine_LayerMask : NodeCanvas.Tasks.Conditions.CheckCSharpEvent<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Conditions_CheckEvent_System_Boolean : NodeCanvas.Tasks.Conditions.CheckEvent<System.Boolean>{}
@@ -1118,6 +1170,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Conditions.CheckEvent<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_Space : NodeCanvas.Tasks.Conditions.CheckEvent<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Conditions_CheckEvent_FlowCanvas_Flow : NodeCanvas.Tasks.Conditions.CheckEvent<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Conditions.CheckEvent<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckEvent_UnityEngine_LayerMask : NodeCanvas.Tasks.Conditions.CheckEvent<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Conditions_CheckEventValue_System_Boolean : NodeCanvas.Tasks.Conditions.CheckEventValue<System.Boolean>{}
@@ -1139,6 +1192,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Conditions.CheckEventValue<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_Space : NodeCanvas.Tasks.Conditions.CheckEventValue<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Conditions_CheckEventValue_FlowCanvas_Flow : NodeCanvas.Tasks.Conditions.CheckEventValue<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Conditions.CheckEventValue<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckEventValue_UnityEngine_LayerMask : NodeCanvas.Tasks.Conditions.CheckEventValue<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_System_Boolean : NodeCanvas.Tasks.Conditions.CheckStaticCSharpEvent<System.Boolean>{}
@@ -1160,6 +1214,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Conditions.CheckStaticCSharpEvent<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_Space : NodeCanvas.Tasks.Conditions.CheckStaticCSharpEvent<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_FlowCanvas_Flow : NodeCanvas.Tasks.Conditions.CheckStaticCSharpEvent<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Conditions.CheckStaticCSharpEvent<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckStaticCSharpEvent_UnityEngine_LayerMask : NodeCanvas.Tasks.Conditions.CheckStaticCSharpEvent<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Conditions_CheckVariable_System_Boolean : NodeCanvas.Tasks.Conditions.CheckVariable<System.Boolean>{}
@@ -1181,6 +1236,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Conditions.CheckVariable<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_Space : NodeCanvas.Tasks.Conditions.CheckVariable<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Conditions_CheckVariable_FlowCanvas_Flow : NodeCanvas.Tasks.Conditions.CheckVariable<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Conditions.CheckVariable<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Conditions_CheckVariable_UnityEngine_LayerMask : NodeCanvas.Tasks.Conditions.CheckVariable<UnityEngine.LayerMask>{}
 
 		class NodeCanvas_Tasks_Conditions_ListContainsElement_System_Boolean : NodeCanvas.Tasks.Conditions.ListContainsElement<System.Boolean>{}
@@ -1202,6 +1258,7 @@ namespace ParadoxNotion.Internal{
 		class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_RaycastHit2D : NodeCanvas.Tasks.Conditions.ListContainsElement<UnityEngine.RaycastHit2D>{}
 		class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_Space : NodeCanvas.Tasks.Conditions.ListContainsElement<UnityEngine.Space>{}
 		class NodeCanvas_Tasks_Conditions_ListContainsElement_FlowCanvas_Flow : NodeCanvas.Tasks.Conditions.ListContainsElement<FlowCanvas.Flow>{}
+		class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_ForceMode2D : NodeCanvas.Tasks.Conditions.ListContainsElement<UnityEngine.ForceMode2D>{}
 		class NodeCanvas_Tasks_Conditions_ListContainsElement_UnityEngine_LayerMask : NodeCanvas.Tasks.Conditions.ListContainsElement<UnityEngine.LayerMask>{}
 
 		void FlowCanvas_FlowNode_AddValueInput_1() {
@@ -1225,6 +1282,7 @@ namespace ParadoxNotion.Internal{
 			_FlowCanvas_FlowNode.AddValueInput<UnityEngine.RaycastHit2D>( (System.String)o, (System.String)o );
 			_FlowCanvas_FlowNode.AddValueInput<UnityEngine.Space>( (System.String)o, (System.String)o );
 			_FlowCanvas_FlowNode.AddValueInput<FlowCanvas.Flow>( (System.String)o, (System.String)o );
+			_FlowCanvas_FlowNode.AddValueInput<UnityEngine.ForceMode2D>( (System.String)o, (System.String)o );
 			_FlowCanvas_FlowNode.AddValueInput<UnityEngine.LayerMask>( (System.String)o, (System.String)o );
 		}
 
@@ -1249,6 +1307,7 @@ namespace ParadoxNotion.Internal{
 			_FlowCanvas_FlowNode.AddValueOutput<UnityEngine.RaycastHit2D>( (System.String)o, (FlowCanvas.ValueHandler<UnityEngine.RaycastHit2D>)o, (System.String)o );
 			_FlowCanvas_FlowNode.AddValueOutput<UnityEngine.Space>( (System.String)o, (FlowCanvas.ValueHandler<UnityEngine.Space>)o, (System.String)o );
 			_FlowCanvas_FlowNode.AddValueOutput<FlowCanvas.Flow>( (System.String)o, (FlowCanvas.ValueHandler<FlowCanvas.Flow>)o, (System.String)o );
+			_FlowCanvas_FlowNode.AddValueOutput<UnityEngine.ForceMode2D>( (System.String)o, (FlowCanvas.ValueHandler<UnityEngine.ForceMode2D>)o, (System.String)o );
 			_FlowCanvas_FlowNode.AddValueOutput<UnityEngine.LayerMask>( (System.String)o, (FlowCanvas.ValueHandler<UnityEngine.LayerMask>)o, (System.String)o );
 		}
 
@@ -1273,6 +1332,7 @@ namespace ParadoxNotion.Internal{
 			_NodeCanvas_Framework_IBlackboard.GetVariable<UnityEngine.RaycastHit2D>( (System.String)o );
 			_NodeCanvas_Framework_IBlackboard.GetVariable<UnityEngine.Space>( (System.String)o );
 			_NodeCanvas_Framework_IBlackboard.GetVariable<FlowCanvas.Flow>( (System.String)o );
+			_NodeCanvas_Framework_IBlackboard.GetVariable<UnityEngine.ForceMode2D>( (System.String)o );
 			_NodeCanvas_Framework_IBlackboard.GetVariable<UnityEngine.LayerMask>( (System.String)o );
 		}
 
@@ -1297,6 +1357,7 @@ namespace ParadoxNotion.Internal{
 			_NodeCanvas_Framework_IBlackboard.GetValue<UnityEngine.RaycastHit2D>( (System.String)o );
 			_NodeCanvas_Framework_IBlackboard.GetValue<UnityEngine.Space>( (System.String)o );
 			_NodeCanvas_Framework_IBlackboard.GetValue<FlowCanvas.Flow>( (System.String)o );
+			_NodeCanvas_Framework_IBlackboard.GetValue<UnityEngine.ForceMode2D>( (System.String)o );
 			_NodeCanvas_Framework_IBlackboard.GetValue<UnityEngine.LayerMask>( (System.String)o );
 		}
 
@@ -1377,6 +1438,10 @@ namespace ParadoxNotion.Internal{
 			System.Func<FlowCanvas.Flow> Func_FlowCanvas_Flow;
 			System.Collections.Generic.IList<FlowCanvas.Flow> List_FlowCanvas_Flow;
 			System.Collections.Generic.IDictionary<System.String, FlowCanvas.Flow> Dict_FlowCanvas_Flow;
+			System.Action<UnityEngine.ForceMode2D> Action_UnityEngine_ForceMode2D;
+			System.Func<UnityEngine.ForceMode2D> Func_UnityEngine_ForceMode2D;
+			System.Collections.Generic.IList<UnityEngine.ForceMode2D> List_UnityEngine_ForceMode2D;
+			System.Collections.Generic.IDictionary<System.String, UnityEngine.ForceMode2D> Dict_UnityEngine_ForceMode2D;
 			System.Action<UnityEngine.LayerMask> Action_UnityEngine_LayerMask;
 			System.Func<UnityEngine.LayerMask> Func_UnityEngine_LayerMask;
 			System.Collections.Generic.IList<UnityEngine.LayerMask> List_UnityEngine_LayerMask;
@@ -1385,5 +1450,5 @@ namespace ParadoxNotion.Internal{
 	}
 }
 
-//1121 Classes | 80 Methods
+//1177 Classes | 84 Methods
 #pragma warning restore 0219, 0168, 0612

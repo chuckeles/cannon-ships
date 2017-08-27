@@ -18,6 +18,7 @@
 		<type fullname="UnityEngine.GameObject" preserve="all"/>
 		<type fullname="UnityEngine.Light" preserve="all"/>
 		<type fullname="UnityEngine.Object" preserve="all"/>
+		<type fullname="UnityEngine.QualitySettings" preserve="all"/>
 		<type fullname="UnityEngine.Rigidbody" preserve="all"/>
 		<type fullname="UnityEngine.Rigidbody2D" preserve="all"/>
 		<type fullname="UnityEngine.Sprite" preserve="all"/>
